@@ -8,4 +8,3 @@ dlgMain.setWindowTitle('First GUI')
 dlgMain.show()  # show GUI
 
 app.exec_() # start app
-# test commit

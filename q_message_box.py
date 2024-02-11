@@ -29,6 +29,7 @@ class DlgMain(QDialog):
         msgDiskFull.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
         msgDiskFull.exec_()
 
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     dlg = DlgMain()
